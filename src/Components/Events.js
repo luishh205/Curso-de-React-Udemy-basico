@@ -1,17 +1,19 @@
 const Events = () =>{
-  const handleMyEvent = (e) => {
+    const handleMyEvent = (e) => {
 
-    console.log(e);
+        console.log(e);
 
-    console.log("Ativou btn");
-  };
-const renderSomething=(x)=> {
-    if(x){
-    return <h1>Renderizando isso!</h1>;   
-    }else{
-    return <h1>tambem posso Renderizando isso!</h1>;  
-    }
-};
+        console.log("Ativou btn");
+    };
+    
+    const renderSomething=(x)=> {
+        if(x){
+        return <h1>Renderizando isso!</h1>;   
+        }else{
+        return <h1>tambem posso Renderizando isso!</h1>;  
+        }
+    };
+
     return(
         <div>
             <div>

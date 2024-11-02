@@ -1,5 +1,5 @@
 import MyComponent from "./MyComponent";
-const FistComponent = ()=>{
+const FistComponent = () =>{
     return(
         <div>
             <h1 className="teste">Meu primeiro componente</h1>
